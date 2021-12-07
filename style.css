@@ -67,7 +67,7 @@ aside button {
     height: 40px;
     box-sizing: border-box;
     position: relative;
-    top: -5px;
+    top: 10px;
     margin-left: 10px;
     border-radius: 50%;
     border:none;
