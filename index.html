@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap&family=VT323&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/snake.jpeg">
+    <script defer src="script.js"></script>    <!-- defer faz o javascript ser carregado no final -->
+    <title>Snake Gamer</title>
+</head>
+<body>
+    <div id="content">    
+        <aside>
+            
+            <h1>SNAKE GAMER!</h1>
+            <div>
+                <div>
+                    Pontos: <span id="spanScore">0</span>
+                </div>
+                <button id="btnScore"></button>
+            </div>
+            <div>
+                <div>
+                    Nível: <span id="spanLevel">1</span>
+                </div>
+                <button id="btnLevel"></button>
+            </div>       
+            <div>
+                <div>
+                    Borda: <span id="spanBorder">No</span>
+                </div>
+                <button id="btnBorder"></button>
+            </div>
+        </aside>
+        <div id="jogo">
+            <canvas id="snake" width="448" height="448"></canvas>
+            <div id="gameover" class="blink" style="display:none;">
+                GAME OVER!<br />
+                <span>Clique no botão Score para Reiniciar</span>
+            </div>
+        </div>        
+    </div>
+</body>
+</html>
